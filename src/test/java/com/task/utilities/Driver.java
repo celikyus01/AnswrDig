@@ -1,4 +1,4 @@
-package com.vytrack.utilities;
+package com.task.utilities;
 
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -13,6 +13,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
 public class Driver {
+
     private Driver() {
 
     }

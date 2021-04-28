@@ -1,6 +1,6 @@
-package com.vytrack.step_definitions;
+package com.task.step_definitions;
 
-import com.vytrack.utilities.Driver;
+import com.task.utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
@@ -22,7 +22,7 @@ public class Hooks {
             final byte[] screenshot = ((TakesScreenshot) Driver.get()).getScreenshotAs(OutputType.BYTES);
             scenario.attach(screenshot, "image.png", "screenshot");
         }
-        Thread.sleep(5000);
+        //Thread.sleep(5000);
         Driver.closeDriver();
     }
 
