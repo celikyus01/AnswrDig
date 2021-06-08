@@ -1,4 +1,4 @@
-package com.task.utilities;
+package com.answerDigital.utilities;
 
 import java.io.FileInputStream;
 import java.util.Properties;

@@ -7,7 +7,7 @@ Feature: Student can register
     When the user navigates to "Forms" -- "Practice Form"
     When the user fills in all fields with random valid data
     And the user selects below subjects
-      | Maths    |
+      | Maths   |
       | English |
     And the user select "hobbies" radio button as "Reading"
     And the user select "gender" radio button as "Female"
@@ -74,7 +74,6 @@ Feature: Student can register
       | email@111.222.333.44444       |
       | email@example..com            |
       | Abc..123@example.com          |
-
 
 
   @register_invalid_input_quick_check_up

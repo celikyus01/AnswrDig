@@ -1,2 +1,4 @@
-package com.answerDigital.pages;public class RegisterPage {
+package com.answerDigital.pages;
+
+public class RegisterPage extends BasePage{
 }
